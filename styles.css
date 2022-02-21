@@ -1,0 +1,23 @@
+body {
+  background-color: antiquewhite;
+}
+
+.list {
+  list-style-type: none;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.shop {
+  align-self: center;
+  list-style-type: none;
+  border: 1px solid;
+  border-color: red;
+  padding: .5em 8em;
+  color: red;
+  margin: .5em 1em;
+  flex: 1 
+}
